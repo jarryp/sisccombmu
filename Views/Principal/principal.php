@@ -11,7 +11,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h1 class="page-header">
-                            Alcaldía <small>Resumen grafico de la ejecución presupuestaria</small>
+                            Alcaldía Junín<small>Sistema de Control de Abastecimiento de Combustibles</small>
                         </h1>
                     </div>
                 </div>
@@ -208,7 +208,7 @@
                     </div>
                 </div>
                 <!-- /. ROW  -->
-				<footer><p>All right reserved. Template by: <a href="http://webthemez.com">WebThemez</a></p></footer>
+				<footer><p>Todos los Derechos Reservados. Creado por: <a href="http://palaciossystems.com">Palacio's Systems</a></p></footer>
             </div>
             <!-- /. PAGE INNER  -->
         </div>
