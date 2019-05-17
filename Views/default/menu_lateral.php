@@ -36,6 +36,9 @@
                         <a href="#">Registro de Vehiculos</a>
                     </li>
                     <li>
+                        <a href="#">Asignar Lote de convocatoria</a>
+                    </li>
+                    <li>
                         <a href="#">Registro de Consumo</a>
                     </li>
 
