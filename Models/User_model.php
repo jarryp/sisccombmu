@@ -105,14 +105,14 @@ class User_model extends Conexion {
 	}
 
 	function save(){
-		$query="insert into ".$this->tabla."(name,lastname,usuario,email,password) values('".$this->name."','".$this->lastname."','".$this->usuario."','".$this->email."',pgp_sym_encrypt('".$this->password."','".KEY_DB."'))";
+		$query="insert into ".$this->tabla."(name,lastname,usuario,email,password) values('".$this->name."','".$this->lastname."','".$this->usuario."','".$this->email."','".$this->password."')";
 		return $this->db->ejecutaMdl($query);
 	}
 
 	function update(){
 	$query="update ".$this->tabla." set name='".$this->name."', lastname='".$this->lastname."', usuario='".$this->usuario."', email='".$this->email."', updated_at=now() ";
 		if($this->cambiapwd=="1"){
-			$query.=", password=pgp_sym_encrypt('123456','".KEY_DB."') ";
+			$query.=", '123456' ";
 		}
 		if($this->estado=="1"){
 			$query.=", estado=true ";

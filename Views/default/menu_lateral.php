@@ -6,7 +6,65 @@
                         <a class="active-menu" href="index.html"><i class="fa fa-dashboard"></i> Dashboard</a>
                     </li>
 
+                    <!-- Opciones de Menu para Archivos Maestros-->
+                    <li>
+                    <a href="#"><i class="fa fa-sitemap"></i>Archivos Maestros<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="#">Vehiculos<span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+                                    <li>
+                                        <a href="#">Tipo de Combustible</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Fabricantes</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Tipo de Vehiculos</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Modelos</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!-- Opciones de Menu para Archivos Maestros-->                    
+
+                    <li>
+                        <a href="#">Registro de Vehiculos</a>
+                    </li>
+                    <li>
+                        <a href="#">Registro de Consumo</a>
+                    </li>
+
+                    <li>
+                    <a href="#"><i class="fa fa-sitemap"></i>Carga de Datos<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="#">Consumos de Combustibles</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                    <a href="#"><i class="fa fa-sitemap"></i>Sincronización de Datos<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="#">Desde REIMSERSOFT</a>
+                            </li>
+                            <li>
+                                <a href="#">Desde Estacion de Trabajo</a>
+                            </li>
+                        </ul>
+                    </li>
+
+
+
+
                     <!-- Opciones de Menu para Presupuesto-->
+<!--
                     <li>
                     <a href="#"><i class="fa fa-sitemap"></i>Presupuesto<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
@@ -91,8 +149,8 @@
                         </ul>
                     </li>
                     <!-- FIN Opciones de Menu para Presupuesto-->
-                    <!-- Opciones de Menu para Procesos de Nominas de Pago-->
-
+                    <!-- Opciones de Menu para Procesos de Nominas de Pago--> 
+<!--
                     <li>
                     <a href="#"><i class="fa fa-sitemap"></i>Recursos Humanos<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
@@ -152,6 +210,7 @@
                     <!-- FIN Opciones de Menu para Procesos de Nominas de Pago-->
 
                     <!-- Opciones de Menu para Procesos de Tesoreria-->
+                    <!--
                     <li>
                     <a href="#"><i class="fa fa-sitemap"></i>Tesoreria Municipal<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
@@ -195,6 +254,7 @@
                     <!-- FIN de Opciones de Menu para Procesos de Tesoreria-->
 
                     <!-- Opciones de Menu para Rentas Municipales-->
+                    <!--
                     <li>
                     <a href="#"><i class="fa fa-sitemap"></i>Rentas Municipales<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">

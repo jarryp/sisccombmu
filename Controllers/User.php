@@ -1,4 +1,5 @@
 <?php
+	header('Access-Control-Allow-Origin: *');
 
 class User extends Controllers {
 
@@ -123,10 +124,11 @@ class User extends Controllers {
 	public function usuarioLogin(){
 	if( isset($_POST["email"]) && isset($_POST["passwd"]) ){
 
-	$response = $this->model->usuarioLogin("idUser,Name,LastName,usuario,email,pgp_sym_decrypt(password,'p4l4c10ssyst3ms') as password ","Email= '".$_POST['email']."' ");
+	$response = $this->model->usuarioLogin("idUser,Name,LastName,usuario,trim(email) as email,trim(password) as password","Email= '".$_POST['email']."' ");
 			$response = $response[0];
 			if($response["password"]==$_POST["passwd"]){
 				$this->createSession($response['iduser'],$response['Name'].' '.$response['LastName']);
+					$_SESSION['n_usuario'] = $response['name']." ".$response['lastname'];
 				echo "1";
 			}else{
 				echo "2";
@@ -140,7 +142,7 @@ class User extends Controllers {
 	public function signIn(){
 		if(isset($_POST['name']) && isset($_POST['lastname']) && isset($_POST['usuario']) && isset($_POST['email']) && isset($_POST['passwd'])){
 
-			$response = $this->model->usuarioLogin("idUser,Name,LastName,usuario,email,pgp_sym_decrypt(password,'p4l4c10ssyst3ms') as password ","Email= '".$_POST['email']."' ");
+			$response = $this->model->usuarioLogin("idUser,Name,LastName,usuario,email,password ","Email= '".$_POST['email']."' ");
 			$response = $response[0];
 
 			if($response==NULL){

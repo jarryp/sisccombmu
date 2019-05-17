@@ -7,7 +7,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="<?php echo URL; ?>">SOFTPRE</a>
+                <a class="navbar-brand" href="<?php echo URL; ?>">SISCCOMBMU</a>
             </div>
 
             <ul class="nav navbar-top-links navbar-right">
